@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", "sans-serif";
+    color: #001D8A;
+}
+
+/*@import 'mixins';*/
+#main-header {
+    height: 100vh;
+    background-image: url(../../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+}
+
+#main-header .container {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+#main-header .container .finanse {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 10px 0;
+}
+
+#main-header .container .finanse p {
+    margin: 0;
+    font-size: 32px;
+}
+
+#main-header .container .finanse p .fa {
+    color: #ECD407;
+}
+
+#main-header .container .telefon {
+    float: right;
+    width: 195px;
+    padding: 10px 0;
+}
+
+#main-header .container .telefon .fa {
+    float: left;
+    color: #FFF;
+    font-size: 40px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+
+#main-header .container .telefon p {
+    margin: 0;
+}
+
+#main-header .container .telefon p:last-of-type {
+    font-size: 20px;
+}
+
+#main-header .container .form-outer {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    width: 30%;
+}
+
+#main-header .container .form-outer h2 {
+    color: #FFF;
+}
+
+#main-header .container .form-outer h2 span {
+    color: #ECD407;
+}
+
+#main-header .container .form-outer form {
+    background-color: #001D8A;
+    padding: 20px 10px;
+}
+
+#main-header .container .form-outer form h3 {
+    color: #FFF;
+}
+
+#main-header .container .form-outer form input:not([type="submit"]),
+        #main-header .container .form-outer form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+#main-header .container .form-outer form input[type="submit"] {
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ECD407;
+    color: #292929;
+    border: 0;
+    text-transform: uppercase;
+}
+
+footer {
+    color: #FFF;
+    background-color: #292929;
+    padding: 30px;
+    text-align: center;
+}
+
+footer .box {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+footer .box .fa {
+    background-color: #ECD407;
+    line-height: 50px;
+    width: 50px;
+    color: #292929;
+    font-size: 20px;
+}

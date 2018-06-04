@@ -1,0 +1,97 @@
+/*@import 'mixins';*/
+
+@import 'zmienne';
+
+#main-header {
+    height: 100vh;
+    background-image: url(../../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+        position: relative;
+
+        .finanse {
+            width: 50%;
+            display: inline-block;
+            float: left;
+            padding: 10px 0;
+
+            p {
+                margin: 0;
+                font-size: 32px;
+
+                .fa {
+                    color: $zolty;
+                }
+            }
+        }
+
+        .telefon {
+            float: right;
+            width: 195px;
+            padding: 10px 0;
+            .fa {
+                float: left;
+                color: #FFF;
+                font-size: 40px;
+                line-height: 45px;
+                margin-right: 10px;
+            }
+
+            p {
+                margin: 0;
+                &:last-of-type {
+                    font-size: 20px;
+                }
+            }
+        }
+
+
+        .form-outer {
+            position: absolute;
+            right: 0;
+            bottom: 10%;
+            width: 30%;
+
+            h2 {
+                color: #FFF;
+                span {
+                    color: $zolty;
+                }
+            }
+
+            form {
+                background-color: $niebieski;
+                padding: 20px 10px;
+                h3 {
+                    color: #FFF;
+                }
+
+                input:not([type="submit"]),
+                textarea {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 40px;
+                }
+
+                input[type="submit"] {
+                    width: 150px;
+                    line-height: 40px;
+                    text-align: center;
+                    background-color: $zolty;
+                    color: $szary;
+                    border: 0;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

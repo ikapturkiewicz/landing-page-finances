@@ -1,0 +1,20 @@
+@import 'zmienne';
+
+footer {
+    color: #FFF;
+    background-color: $szary;
+    padding: 30px;
+    text-align: center;
+    .box {
+        float: left;
+        width: 50%;
+        display: inline-block;
+        .fa {
+            background-color: $zolty;
+            line-height: 50px;
+            width: 50px;
+            color: $szary;
+            font-size: 20px;
+        }
+    }
+}

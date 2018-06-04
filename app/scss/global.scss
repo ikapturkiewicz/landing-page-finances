@@ -1,0 +1,14 @@
+@import 'zmienne';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $base-font;
+    color: $niebieski;
+}
+
+@import 'header';
+@import 'footer';
